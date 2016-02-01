@@ -1,0 +1,37 @@
+<!doctype html> 
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8" />
+   	<title>DIT Sanitisation workshop - basic form to add a product</title>
+</head>
+<body>
+<h1>Add product details</h1>
+   <form id = "AddProduct" method = "get" action = "AddProductProcess.php">
+	
+	<div>
+		Product name
+		<input type = "text" name = "pName" /> 
+           </div>  
+	
+	<div>
+		Description
+		<textarea name = "description" rows = "4" cols = "35"></textarea>
+           </div>
+           <div>
+		Category
+		<select name = "category">
+			<option value = "CD">CD</option>
+			<option value = "DVD">DVD</option>
+			<option value = "software">Software</option>
+		</select>
+           </div>
+	<div>
+		Price
+		<input type = "text" name = "price" /> 
+           </div>            
+	<div>
+		<input type = "submit" value = "Add Product" />
+	</div>
+   </form>
+</body>
+</html>
