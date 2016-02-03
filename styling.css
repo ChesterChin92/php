@@ -6,7 +6,7 @@ color: #000;
 font-family: Helvetica, Arial, sans-serif;
 width: 100%;
 width:900px;
-max-width: 100%x; 
+    max-width: 100%;
 border-collapse: 
 collapse; border-spacing: 0; 
 }
@@ -30,8 +30,7 @@ background: #FAFAFA ;
 text-align: center;
 }
 
-
-//zebra-striped tables
+/*zebra-striped tables*/
 /* Cells in even rows (2,4,6...) are one color */ 
 tr:nth-child(even) td { background: #F1F1F1 ; }  
 

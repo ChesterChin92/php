@@ -1,5 +1,7 @@
 <?php
-	define ("HOST",'localhost');
+
+
+define ("HOST",'localhost');
 	define ("USER", 'root');
 	define ("PASSWORD", '');
 	define ("DATABASE", 'cd_db'); //cinema replaced with your name

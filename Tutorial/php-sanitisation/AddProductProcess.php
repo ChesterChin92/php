@@ -1,5 +1,5 @@
 <?php
-	include "database_conn.php"
+include "database_conn.php"
 ?>
 
 
